@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  margin: 0;
+  padding: 50px 0px 200px 0px;
+  background-color: #F1F1EC;
+  align-content: center;
+  width: auto;
+}
+
+.footer p {
+  color: #111211;
+  font-size: 75px;
+  font-weight: bolder;
+/*  text-shadow: 1px 1px  rgba(255, 255, 255, 0.4);*/
+}
+
+i {
+  color: #111211;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 75px;
+}
+
+a {
+  text-decoration: none;
+}

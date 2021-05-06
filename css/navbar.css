@@ -1,0 +1,29 @@
+.topnav {
+  justify-content: space-between;
+  background: black;
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-light .navbar-brand {
+/*  font-family: 'Yellowtail', cursive;*/
+  /*font-family: 'LiErbre Barcode 128 Text', cursive;*/
+  font-family: 'Libre Barcode 128', cursive;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 30px;
+  color: white;
+}
