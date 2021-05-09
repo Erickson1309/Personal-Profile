@@ -1,91 +1,55 @@
-body {
-  background-color: white;
-  font-family: 'Jost', sans-serif;
-}
-
-h1 {
-  /*font-family: 'Jost', sans-serif;*/
-  /*font-family: 'Yellowtail', cursive;*/
-  /*font-family: 'Amatic SC', cursive;*/
-  font-family: 'LiErbre Barcode 128 Text', cursive;
-  /*font-family: 'Poiret One', cursive;*/
-  /*font-family: 'Pompiere', cursive;*/
-  /*font-family: 'Spartan', sans-serif;*/
-  /*font-family: 'Voltaire', sans-serif;*/
-  color: white;
-  font-size: 250px;
-  text-align: center;
-  margin-top: 20%;
-}
 
 * {
-  margin: 0;
-  padding: 0;
   border: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.margin {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-.parallax {
-  /*background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_133492352_287666.jpg") yellow repeat fixed 100%;*/
-  /*background: url("../images/EricksonTextBG.png") fixed 100%;*/
-  /*background: url("../images/EricksonTextBG2.png") fixed 100%;*/
-  background: url("../images/EricksonBC.png") fixed 100%;
-  /*background: url("../images/blueprint.jpeg");*/
-  /*background-color: black;*/
-}
-
-.parallax-inner2 {
-  padding-top: 0%;
-  padding-bottom: 5%;
-}
-
-.container {
+div {
   display: flex;
-  justify-content: space-around;
-}
-
-#emptyblock {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: big john;
   width: 100%;
-  height: 800px;
+  height: 100vh;
 }
 
-#block1 {
-  display: inline;
-  width: 400px;
-  padding: 30px 30px 15px 0px;
+div:nth-child(1) {
+  background: url("../images/EricksonBC.png");
+  background-size: cover;
 }
 
-#block2 {
-  display: inline;
-  width: 650px;
-  padding: 30px 30px 0px 30px;
+div:nth-child(2) {
+  background: green;
+  background-size: cover;
 }
 
-#block3 {
-  display: inline;
-  width: 400px;
+div:nth-child(3) {
   height: 400px;
-  padding: 0px 0px 0px 0px;
-  background-color: #F1F1EC;
+  background-image: ("../images/desk.jpeg");
+  background- size: cover;
 }
 
-#block4 {
-  display: inline;
-  width: 650px;
-  height: 400px;
-  padding: 30px 30px 30px 30px;
-  background-color: #F1F1EC;
+div:nth-child(4) {
+  background-color: yellow;
 }
 
-#block5 {
-  display: inline;
-  width: 400px;
-  height: 400px;
-  padding: 30px 30px 0px 30px;
-  background-color: #F1F1EC;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
