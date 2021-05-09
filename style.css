@@ -1,0 +1,59 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: big john;
+  width: 100%;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 60px;
+  background: #eee;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+
+.Block1 {
+  background-image: url("img/EricksonBC.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Block2 {
+  background: green;
+  background-size: cover;
+}
+
+.Block3 {
+  height: 800px;
+  background-image: url("img/mountainswallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Block4 {
+  background-color: #F1F1EC;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
