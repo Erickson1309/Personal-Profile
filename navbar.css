@@ -27,3 +27,24 @@
   padding-right: 30px;
   color: white;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+header {
+  background: grey;
+}
+
+h4 {
+    font-family: 'Libre Barcode 128', cursive;
+  font-size: 40px;
+  color: white;
+  float: left;
+}
+
+nav {
+  float: right;
+}
