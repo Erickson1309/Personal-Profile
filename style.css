@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-div {
+.Blocks {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@ h2 {
 }
 
 .Block3 {
-  height: 800px;
+/*  height: 800px;*/
   background-image: url("img/mountainswallpaper.jpg");
   background-size: cover;
   background-attachment: fixed;
