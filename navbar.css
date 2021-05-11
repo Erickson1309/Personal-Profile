@@ -1,18 +1,32 @@
 .container {
   width: 80%;
   margin: 0 auto;
-  height: 100px;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header {
-  background: grey;
+  background: black;
+  position: fixed;
 }
 
-h4 {
+h4 a{
   font-family: 'Libre Barcode 128', cursive;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
+  margin: 0px 0px 0px 0px;
+  padding-top: 10px;
   float: left;
+}
+
+h4 a:hover {
+  color: grey;
 }
 
 nav {
@@ -23,9 +37,20 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 30px;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 5px;
+  display: inline;
+  margin-left: 20px;
+  padding-top: 20px;
 }
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: grey;
+}
+
