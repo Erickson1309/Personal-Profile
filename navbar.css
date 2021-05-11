@@ -9,7 +9,7 @@ header {
 }
 
 h4 {
-    font-family: 'Libre Barcode 128', cursive;
+  font-family: 'Libre Barcode 128', cursive;
   font-size: 40px;
   color: white;
   float: left;
@@ -17,4 +17,15 @@ h4 {
 
 nav {
   float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5px;
 }
