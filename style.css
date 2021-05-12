@@ -34,13 +34,13 @@ h5 {
 #parallax h2 {
   font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 200px;
-  color: white;
+  color: #111211;
   font-weight: lighter;
 }
 
 .Block1 {
   /*background-image: url("img/EricksonBC.png");*/
-  background-color: black;
+  background-color: #e6e6e6;
   background-size: auto;
   background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ h5 {
 }
 
 .Block4 {
-  background-color: #F1F1EC;
+  background-color: #e6e6e6;
   margin: 0;
 }
 

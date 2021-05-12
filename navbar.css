@@ -12,14 +12,14 @@
 }
 
 header {
-  background: black;
+  background: none;
   position: fixed;
 }
 
 h4 a{
   font-family: 'Libre Barcode 128', cursive;
   font-size: 50px;
-  color: white;
+  color: #111211;
   margin: 0px 0px 0px 0px;
   padding-top: 10px;
   float: left;
@@ -47,7 +47,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: #111211;
 }
 
 nav a:hover {
