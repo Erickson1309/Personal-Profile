@@ -54,3 +54,11 @@ nav a:hover {
   color: grey;
 }
 
+button {
+  font-size: 20px;
+  background: none;
+}
+
+button:hover {
+  color: grey;
+}
