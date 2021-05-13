@@ -1,8 +1,8 @@
 .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   height: 60px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .sticky {
@@ -61,4 +61,5 @@ button {
 
 button:hover {
   color: grey;
+  cursor: pointer;
 }
