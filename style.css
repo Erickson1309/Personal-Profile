@@ -22,8 +22,12 @@ p {
 h2 {
   color: #111211;
   font-size: 30px;
-  padding: 100px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   border-radius: 16px;
+}
+
+#aboutme h2 {
+  padding-top: 100px;
 }
 
 h5 {
